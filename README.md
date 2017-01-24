@@ -1,5 +1,5 @@
 
-# Pyload-ass | Auto Installer | Debian 8.x
+# Pyload-autoinstaller | Auto Installer | Debian 8.x
 
 
 Pyload-ass is an Script to fully automate and easy install [pyLoad](https://pyload.net) on an Linux Server!

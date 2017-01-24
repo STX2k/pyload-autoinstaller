@@ -30,7 +30,7 @@ function CHECK_ROOT {
 		exit 1
 	fi
 }
-#User for nZEDb
+#User for Pyload
 echo -e $YELLOW
 echo -e "---> [For safety reasons, we create a separate user...]"$BLACK
 read -p "User Account Name (eg.'pyload'):" usernamepyload
@@ -97,7 +97,7 @@ server {
 }" > pyload.conf
 mv pyload.conf /etc/nginx/sites-enabled/pyload
 echo -e $CYAN
-read -p "Set Servername (eg. pyload.keinnerd.net):" servername
+read -p "Set Servername (eg. pyload.yourdomain.com):" servername
 sed -i "s/\bservername2\b/$servername/g" /etc/nginx/sites-enabled/pyload
 echo -e $CYAN
 echo -e "---> [Restart nginx...]"$BLACK
@@ -111,10 +111,10 @@ echo -e $YELLOW
 echo -e "-------------------------------------------------"
 echo -e "# Please enter a domain without www!            #"
 echo -e "#                                               #"
-echo -e "# eg. pyload.keinnerd.net                       #"
+echo -e "# eg. pyload.yourdomain.com                     #"
 echo -e "# you need an email Adress for the next Step    #"
 echo -e "-------------------------------------------------"$BLACK
-read -p "Enter a legit email Addy for SSL Cert (eg. ssl@keinnerd.net):" sslmail
+read -p "Enter a legit email Addy for SSL Cert (eg. ssl@yourdomain.com):" sslmail
 systemctl stop nginx.service
 cd /opt/
 wget https://dl.eff.org/certbot-auto

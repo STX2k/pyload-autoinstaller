@@ -1,6 +1,6 @@
 #!/bin/bash
-# Script Name: Pyload A(uto)S(etup)S(script)
-# Author: KeinNerd (2016)
+# Script Name: Pyload Auto Installer
+# Author: STX2k (2016)
 #############################################
 
 # Color definition variables
@@ -15,9 +15,9 @@ clear
 
 # Display the Title Information
 echo -e $CYAN
-echo -e ">>> Pyload - Auto Installer by KeinNerd.net <<<"
+echo -e ">>> Pyload - Auto Installer by STX2k <<<"
 echo
-echo -e ">> Check ReadME or Keinnerd.net for more Infos <<"
+echo -e ">> Check ReadME for more Infos <<"
 echo
 echo -e $RED' You use this Script on your own risk!'$BLACK
 echo

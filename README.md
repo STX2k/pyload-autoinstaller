@@ -30,5 +30,3 @@ If you get the Error ERROR: The certificate of 'raw.githubusercontent.com' is no
 ```sh
 apt-get install ca-certificates
 ```
-
-[Ass icon credits <3 icons8.com](https://icons8.com/web-app/13036/Bottom)
